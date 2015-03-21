@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\temp\ENIService" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="11/08/2012 06:59:13" />
+    <file relUrl="bin/ENIWebService.dll" publishTime="03/21/2015 20:56:39" />
+    <file relUrl="ClockIntegeration.asmx" publishTime="09/26/2012 22:07:18" />
+    <file relUrl="bin/ENI_BE.xml" publishTime="03/21/2015 20:43:35" />
+    <file relUrl="Account/Web.config" publishTime="05/24/2012 18:52:23" />
+    <file relUrl="bin/ENI_BE.pdb" publishTime="03/21/2015 20:43:35" />
+    <file relUrl="Account/Register.aspx" publishTime="05/24/2012 18:52:23" />
+    <file relUrl="bin/ENI_BE.dll" publishTime="03/21/2015 20:43:35" />
+    <file relUrl="Account/ChangePasswordSuccess.aspx" publishTime="05/24/2012 18:52:23" />
+    <file relUrl="Account/Login.aspx" publishTime="05/24/2012 18:52:23" />
+    <file relUrl="bin/ENIWebService.pdb" publishTime="03/21/2015 20:56:39" />
+    <file relUrl="bin/ENIWebService.xml" publishTime="03/21/2015 20:56:39" />
+    <file relUrl="Global.asax" publishTime="05/24/2012 18:52:23" />
+    <file relUrl="Account/ChangePassword.aspx" publishTime="05/24/2012 18:52:22" />
+  </publishProfile>
+</publishData>

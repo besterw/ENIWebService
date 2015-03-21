@@ -1,0 +1,2248 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ENI_BE
+</name>
+</assembly>
+<members>
+<member name="T:ENI_BE.DS_ItemsToSecure.ItemsToSecureDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_ItemsToSecure.ItemsToSecureRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_ItemsToSecure.ItemsToSecureRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_ItemsToSecure">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_ItemsToSecureTableAdapters.ItemsToSecureTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_ItemsToSecureTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_ItemsToSecure,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ItemsToSecureTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_ItemsToSecure,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ItemsToSecureTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_ItemsToSecure,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_ItemsToSecureTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_ItemsToSecureTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_ItemsToSecure)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_ItemsToSecureTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_ItemsToSecureTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_ItemsToSecureTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_Roles.RolesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_Roles.RolesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_Roles.RolesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_Roles">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_RolesTableAdapters.RolesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_RolesTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_Roles,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_RolesTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_Roles,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_RolesTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_Roles,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_RolesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_RolesTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_Roles)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_RolesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_RolesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_RolesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_Employees.EmployeesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_Employees.EmployeesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_Employees.EmployeesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_Employees">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeesTableAdapters.EmployeesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeesTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_Employees,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeesTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_Employees,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeesTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_Employees,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeesTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_Employees)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_AuditLog.AuditLogDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_AuditLog.AuditLogRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_AuditLog.AuditLogRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_AuditLog">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_AuditLogTableAdapters.AuditLogTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_AuditLogTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_AuditLog,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_AuditLogTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_AuditLog,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_AuditLogTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_AuditLog,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_AuditLogTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_AuditLogTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_AuditLog)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_AuditLogTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_AuditLogTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_AuditLogTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeDocuments.EmployeeDocumentsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeDocuments.EmployeeDocumentsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeDocuments.EmployeeDocumentsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeDocuments">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeDocumentsTableAdapters.EmployeeDocumentsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeDocumentsTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_EmployeeDocuments,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeDocumentsTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_EmployeeDocuments,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeDocumentsTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_EmployeeDocuments,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeDocumentsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeDocumentsTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_EmployeeDocuments)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeDocumentsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeDocumentsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeDocumentsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_Report_R008_AttendanceRegister.V_Report_R008_AttendanceLog_DetailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_Report_R008_AttendanceRegister.V_Report_R008_AttendanceLog_DetailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_Report_R008_AttendanceRegister.V_Report_R008_AttendanceLog_DetailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_Report_R008_AttendanceRegister">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_Report_R008_AttendanceRegisterTableAdapters.V_Report_R008_AttendanceLog_DetailTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_Report_R008_AttendanceRegisterTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_Report_R008_AttendanceRegister,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_Report_R008_AttendanceRegisterTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_Report_R008_AttendanceRegister,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_Report_R008_AttendanceRegisterTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_Report_R008_AttendanceRegister,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_Report_R008_AttendanceRegisterTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_Report_R008_AttendanceRegisterTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_Report_R008_AttendanceRegister)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_Report_R008_AttendanceRegisterTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_Report_R008_AttendanceRegisterTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_Report_R008_AttendanceRegisterTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftDetail.ShiftDetailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftDetail.ShiftDetailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftDetail.ShiftDetailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftDetail">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftDetailTableAdapters.ShiftDetailTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftDetailTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_ShiftDetail,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftDetailTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_ShiftDetail,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftDetailTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_ShiftDetail,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftDetailTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftDetailTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_ShiftDetail)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftDetailTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftDetailTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftDetailTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDiary.SiteDiaryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDiary.SiteDiaryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDiary.SiteDiaryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDiary">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDiaryTableAdapters.SiteDiaryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_SiteDiaryTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_SiteDiary,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_SiteDiaryTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_SiteDiary,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_SiteDiaryTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_SiteDiary,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_SiteDiaryTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_SiteDiaryTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_SiteDiary)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDiaryTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDiaryTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDiaryTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_UserRoleAllocation.UserRoleAllocationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_UserRoleAllocation.UserRoleAllocationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_UserRoleAllocation.UserRoleAllocationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_UserRoleAllocation">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_UserRoleAllocationTableAdapters.UserRoleAllocationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_UserRoleAllocationTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_UserRoleAllocation,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_UserRoleAllocationTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_UserRoleAllocation,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_UserRoleAllocationTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_UserRoleAllocation,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_UserRoleAllocationTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_UserRoleAllocationTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_UserRoleAllocation)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_UserRoleAllocationTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_UserRoleAllocationTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_UserRoleAllocationTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:ENI_BE.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ENI_BE.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ENI_BE.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:ENI_BE.DS_ReportSchedule.ReportScheduleDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_ReportSchedule.ReportScheduleRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_ReportSchedule.ReportScheduleRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_ReportSchedule">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_ReportScheduleTableAdapters.ReportScheduleTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_ReportScheduleTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_ReportSchedule,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ReportScheduleTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_ReportSchedule,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ReportScheduleTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_ReportSchedule,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_ReportScheduleTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_ReportScheduleTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_ReportSchedule)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_ReportScheduleTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_ReportScheduleTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_ReportScheduleTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_Shifts.ShiftsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_Shifts.ShiftsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_Shifts.ShiftsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_Shifts">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftsTableAdapters.ShiftsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftsTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_Shifts,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftsTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_Shifts,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftsTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_Shifts,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftsTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_Shifts)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDocumentCategories.SiteDocumentCategoriesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDocumentCategories.SiteDocumentCategoriesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDocumentCategories.SiteDocumentCategoriesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDocumentCategories">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDocumentCategoriesTableAdapters.SiteDocumentCategoriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_SiteDocumentCategoriesTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_SiteDocumentCategories,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_SiteDocumentCategoriesTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_SiteDocumentCategories,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_SiteDocumentCategoriesTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_SiteDocumentCategories,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_SiteDocumentCategoriesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_SiteDocumentCategoriesTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_SiteDocumentCategories)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDocumentCategoriesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDocumentCategoriesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDocumentCategoriesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_UserDefaultValues.UserDefaultValuesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_UserDefaultValues.UserDefaultValuesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_UserDefaultValues.UserDefaultValuesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_UserDefaultValues">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_UserDefaultValuesTableAdapters.UserDefaultValuesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_UserDefaultValuesTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_UserDefaultValues,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_UserDefaultValuesTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_UserDefaultValues,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_UserDefaultValuesTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_UserDefaultValues,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_UserDefaultValuesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_UserDefaultValuesTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_UserDefaultValues)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_UserDefaultValuesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_UserDefaultValuesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_UserDefaultValuesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_CMRegister.CMRegisterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_CMRegister.CMRegisterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_CMRegister.CMRegisterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_CMRegister">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_CMRegisterTableAdapters.CMRegisterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_CMRegisterTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_CMRegister,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_CMRegisterTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_CMRegister,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_CMRegisterTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_CMRegister,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_CMRegisterTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_CMRegisterTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_CMRegister)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_CMRegisterTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_CMRegisterTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_CMRegisterTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeAppointments.EmployeeAppointmentsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeAppointments.EmployeeAppointmentsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeAppointments.EmployeeAppointmentsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeAppointments">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeAppointmentsTableAdapters.EmployeeAppointmentsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeAppointmentsTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_EmployeeAppointments,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeAppointmentsTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_EmployeeAppointments,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeAppointmentsTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_EmployeeAppointments,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeAppointmentsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeAppointmentsTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_EmployeeAppointments)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeAppointmentsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeAppointmentsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeAppointmentsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeAppointmentTypes.EmployeeAppointmentTypesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeAppointmentTypes.EmployeeAppointmentTypesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeAppointmentTypes.EmployeeAppointmentTypesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeAppointmentTypes">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeAppointmentTypesTableAdapters.EmployeeAppointmentTypesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeAppointmentTypesTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_EmployeeAppointmentTypes,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeAppointmentTypesTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_EmployeeAppointmentTypes,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeAppointmentTypesTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_EmployeeAppointmentTypes,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeAppointmentTypesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeAppointmentTypesTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_EmployeeAppointmentTypes)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeAppointmentTypesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeAppointmentTypesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeAppointmentTypesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeTeams.EmployeeTeamsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeTeams.EmployeeTeamsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeTeams.EmployeeTeamsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeTeams">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeTeamsTableAdapters.EmployeeTeamsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeTeamsTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_EmployeeTeams,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeTeamsTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_EmployeeTeams,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeTeamsTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_EmployeeTeams,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeTeamsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeTeamsTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_EmployeeTeams)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeTeamsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeTeamsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeTeamsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_Report_008_HoursworkedPerDay.P_Report_R008_AttendanceLog_DetailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_Report_008_HoursworkedPerDay.P_Report_R008_AttendanceLog_DetailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_Report_008_HoursworkedPerDay.P_Report_R008_AttendanceLog_DetailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_Report_008_HoursworkedPerDay">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_Report_008_HoursworkedPerDayTableAdapters.P_Report_R008_AttendanceLog_DetailTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_Report_008_HoursworkedPerDayTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_Report_008_HoursworkedPerDay,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_Report_008_HoursworkedPerDayTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_Report_008_HoursworkedPerDay,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_Report_008_HoursworkedPerDayTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_Report_008_HoursworkedPerDay,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_Report_008_HoursworkedPerDayTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_Report_008_HoursworkedPerDayTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_Report_008_HoursworkedPerDay)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_Report_008_HoursworkedPerDayTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_Report_008_HoursworkedPerDayTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_Report_008_HoursworkedPerDayTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDocuments.SiteDocumentsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDocuments.SiteDocumentsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDocuments.SiteDocumentsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDocuments">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDocumentsTableAdapters.SiteDocumentsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_SiteDocumentsTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_SiteDocuments,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_SiteDocumentsTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_SiteDocuments,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_SiteDocumentsTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_SiteDocuments,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_SiteDocumentsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_SiteDocumentsTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_SiteDocuments)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDocumentsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDocumentsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_SiteDocumentsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_SourceOfFunds.SourceOfFundsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_SourceOfFunds.SourceOfFundsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_SourceOfFunds.SourceOfFundsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_SourceOfFunds">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_SourceOfFundsTableAdapters.SourceOfFundsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_SourceOfFundsTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_SourceOfFunds,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_SourceOfFundsTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_SourceOfFunds,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_SourceOfFundsTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_SourceOfFunds,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_SourceOfFundsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_SourceOfFundsTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_SourceOfFunds)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_SourceOfFundsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_SourceOfFundsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_SourceOfFundsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_ChangeTracker.ChangeTrackerDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_ChangeTracker.ChangeTrackerRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_ChangeTracker.ChangeTrackerRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_ChangeTracker">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_ChangeTrackerTableAdapters.ChangeTrackerTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_ChangeTrackerTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_ChangeTracker,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ChangeTrackerTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_ChangeTracker,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ChangeTrackerTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_ChangeTracker,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_ChangeTrackerTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_ChangeTrackerTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_ChangeTracker)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_ChangeTrackerTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_ChangeTrackerTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_ChangeTrackerTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_Companies.CompaniesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_Companies.CompaniesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_Companies.CompaniesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_Companies">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_CompaniesTableAdapters.CompaniesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_CompaniesTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_Companies,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_CompaniesTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_Companies,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_CompaniesTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_Companies,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_CompaniesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_CompaniesTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_Companies)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_CompaniesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_CompaniesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_CompaniesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_CostCentres.CostCentresDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_CostCentres.CostCentresRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_CostCentres.CostCentresRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_CostCentres">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_CostCentresTableAdapters.CostCentresTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_CostCentresTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_CostCentres,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_CostCentresTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_CostCentres,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_CostCentresTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_CostCentres,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_CostCentresTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_CostCentresTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_CostCentres)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_CostCentresTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_CostCentresTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_CostCentresTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_DieselRegister.DieselRegisterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_DieselRegister.DieselRegisterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_DieselRegister.DieselRegisterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_DieselRegister">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_DieselRegisterTableAdapters.DieselRegisterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_DieselRegisterTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_DieselRegister,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_DieselRegisterTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_DieselRegister,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_DieselRegisterTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_DieselRegister,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_DieselRegisterTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_DieselRegisterTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_DieselRegister)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_DieselRegisterTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_DieselRegisterTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_DieselRegisterTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_FinancialPeriodGrouping.FinancialPeriodGroupingDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_FinancialPeriodGrouping.FinancialPeriodGroupingRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_FinancialPeriodGrouping.FinancialPeriodGroupingRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_FinancialPeriodGrouping">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_FinancialPeriodGroupingTableAdapters.FinancialPeriodGroupingTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_FinancialPeriodGroupingTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_FinancialPeriodGrouping,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_FinancialPeriodGroupingTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_FinancialPeriodGrouping,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_FinancialPeriodGroupingTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_FinancialPeriodGrouping,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_FinancialPeriodGroupingTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_FinancialPeriodGroupingTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_FinancialPeriodGrouping)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_FinancialPeriodGroupingTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_FinancialPeriodGroupingTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_FinancialPeriodGroupingTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_SitePlantDieselUsage.SitePlantDieselUsageDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_SitePlantDieselUsage.SitePlantDieselUsageRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_SitePlantDieselUsage.SitePlantDieselUsageRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_SitePlantDieselUsage">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_SitePlantDieselUsageTableAdapters.SitePlantDieselUsageTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_SitePlantDieselUsageTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_SitePlantDieselUsage,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_SitePlantDieselUsageTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_SitePlantDieselUsage,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_SitePlantDieselUsageTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_SitePlantDieselUsage,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_SitePlantDieselUsageTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_SitePlantDieselUsageTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_SitePlantDieselUsage)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_SitePlantDieselUsageTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_SitePlantDieselUsageTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_SitePlantDieselUsageTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_ExspenseRegister.ExspenseRegisterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_ExspenseRegister.ExspenseRegisterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_ExspenseRegister.ExspenseRegisterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_ExspenseRegister">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_ExspenseRegisterTableAdapters.ExspenseRegisterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_ExspenseRegisterTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_ExspenseRegister,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ExspenseRegisterTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_ExspenseRegister,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ExspenseRegisterTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_ExspenseRegister,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_ExspenseRegisterTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_ExspenseRegisterTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_ExspenseRegister)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_ExspenseRegisterTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_ExspenseRegisterTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_ExspenseRegisterTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_Holidays.HolidaysDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_Holidays.HolidaysRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_Holidays.HolidaysRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_Holidays">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_HolidaysTableAdapters.HolidaysTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_HolidaysTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_Holidays,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_HolidaysTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_Holidays,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_HolidaysTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_Holidays,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_HolidaysTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_HolidaysTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_Holidays)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_HolidaysTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_HolidaysTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_HolidaysTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftHeader.ShiftHeaderDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftHeader.ShiftHeaderRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftHeader.ShiftHeaderRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftHeader">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftHeaderTableAdapters.ShiftHeaderTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftHeaderTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_ShiftHeader,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftHeaderTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_ShiftHeader,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftHeaderTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_ShiftHeader,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftHeaderTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftHeaderTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_ShiftHeader)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftHeaderTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftHeaderTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftHeaderTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_UserSessions.UserSessionsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_UserSessions.UserSessionsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_UserSessions.UserSessionsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_UserSessions">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_UserSessionsTableAdapters.UserSessionsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_UserSessionsTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_UserSessions,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_UserSessionsTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_UserSessions,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_UserSessionsTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_UserSessions,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_UserSessionsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_UserSessionsTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_UserSessions)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_UserSessionsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_UserSessionsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_UserSessionsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_AttendanceLog.AttendanceLogDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_AttendanceLog.AttendanceLogRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_AttendanceLog.AttendanceLogRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_AttendanceLog">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_AttendanceLogTableAdapters.AttendanceLogTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_AttendanceLogTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_AttendanceLog,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_AttendanceLogTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_AttendanceLog,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_AttendanceLogTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_AttendanceLog,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_AttendanceLogTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_AttendanceLogTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_AttendanceLog)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_AttendanceLogTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_AttendanceLogTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_AttendanceLogTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_RoleItemAllocation.RoleItemAllocationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_RoleItemAllocation.RoleItemAllocationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_RoleItemAllocation.RoleItemAllocationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_RoleItemAllocation">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_RoleItemAllocationTableAdapters.RoleItemAllocationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_RoleItemAllocationTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_RoleItemAllocation,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_RoleItemAllocationTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_RoleItemAllocation,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_RoleItemAllocationTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_RoleItemAllocation,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_RoleItemAllocationTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_RoleItemAllocationTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_RoleItemAllocation)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_RoleItemAllocationTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_RoleItemAllocationTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_RoleItemAllocationTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_Plant.PlantDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_Plant.PlantRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_Plant.PlantRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_Plant">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_PlantTableAdapters.PlantTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_PlantTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_Plant,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_PlantTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_Plant,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_PlantTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_Plant,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_PlantTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_PlantTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_Plant)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_PlantTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_PlantTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_PlantTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeDocumentCategories.EmployeeDocumentCategoriesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeDocumentCategories.EmployeeDocumentCategoriesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeDocumentCategories.EmployeeDocumentCategoriesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeDocumentCategories">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeDocumentCategoriesTableAdapters.EmployeeDocumentCategoriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeDocumentCategoriesTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_EmployeeDocumentCategories,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeDocumentCategoriesTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_EmployeeDocumentCategories,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeDocumentCategoriesTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_EmployeeDocumentCategories,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeDocumentCategoriesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_EmployeeDocumentCategoriesTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_EmployeeDocumentCategories)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeDocumentCategoriesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeDocumentCategoriesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_EmployeeDocumentCategoriesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_SitePlantAllocation.SitePlantAllocationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_SitePlantAllocation.SitePlantAllocationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_SitePlantAllocation.SitePlantAllocationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_SitePlantAllocation">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_SitePlantAllocationTableAdapters.SitePlantAllocationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_SitePlantAllocationTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_SitePlantAllocation,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_SitePlantAllocationTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_SitePlantAllocation,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_SitePlantAllocationTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_SitePlantAllocation,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_SitePlantAllocationTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_SitePlantAllocationTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_SitePlantAllocation)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_SitePlantAllocationTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_SitePlantAllocationTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_SitePlantAllocationTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_Sites.SitesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_Sites.SitesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_Sites.SitesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_Sites">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_SitesTableAdapters.SitesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_SitesTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_Sites,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_SitesTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_Sites,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_SitesTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_Sites,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_SitesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_SitesTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_Sites)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_SitesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_SitesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_SitesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_UserCompanyAllocation.UserCompanyAllocationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_UserCompanyAllocation.UserCompanyAllocationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_UserCompanyAllocation.UserCompanyAllocationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_UserCompanyAllocation">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_UserCompanyAllocationTableAdapters.UserCompanyAllocationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ENI_BE.DS_ExspenseAccounts.ExspenseAccountsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_ExspenseAccounts.ExspenseAccountsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_ExspenseAccounts.ExspenseAccountsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_ExspenseAccounts">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_ExspenseAccountsTableAdapters.ExspenseAccountsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_ExspenseAccountsTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_ExspenseAccounts,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ExspenseAccountsTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_ExspenseAccounts,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ExspenseAccountsTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_ExspenseAccounts,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_ExspenseAccountsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_ExspenseAccountsTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_ExspenseAccounts)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_ExspenseAccountsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_ExspenseAccountsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_ExspenseAccountsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_Suppliers.SuppliersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_Suppliers.SuppliersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_Suppliers.SuppliersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_Suppliers">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_SuppliersTableAdapters.SuppliersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_SuppliersTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_Suppliers,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_SuppliersTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_Suppliers,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_SuppliersTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_Suppliers,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_SuppliersTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_SuppliersTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_Suppliers)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_SuppliersTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_SuppliersTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_SuppliersTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_AttendanceLog_Temp.AttendanceLog_TempDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_AttendanceLog_Temp.AttendanceLog_TempRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_AttendanceLog_Temp.AttendanceLog_TempRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_AttendanceLog_Temp">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_AttendanceLog_TempTableAdapters.AttendanceLog_TempTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_AttendanceLog_TempTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_AttendanceLog_Temp,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_AttendanceLog_TempTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_AttendanceLog_Temp,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_AttendanceLog_TempTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_AttendanceLog_Temp,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_AttendanceLog_TempTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_AttendanceLog_TempTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_AttendanceLog_Temp)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_AttendanceLog_TempTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_AttendanceLog_TempTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_AttendanceLog_TempTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_Users.UsersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_Users.UsersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_Users.UsersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_Users">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_UsersTableAdapters.UsersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_UsersTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_Users,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_UsersTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_Users,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_UsersTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_Users,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_UsersTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_UsersTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_Users)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_UsersTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_UsersTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_UsersTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_FinancialPeriods.FinancialPeriodsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_FinancialPeriods.FinancialPeriodsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_FinancialPeriods.FinancialPeriodsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_FinancialPeriods">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_FinancialPeriodsTableAdapters.FinancialPeriodsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_FinancialPeriodsTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_FinancialPeriods,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_FinancialPeriodsTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_FinancialPeriods,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_FinancialPeriodsTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_FinancialPeriods,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_FinancialPeriodsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_FinancialPeriodsTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_FinancialPeriods)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_FinancialPeriodsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_FinancialPeriodsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_FinancialPeriodsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftSiteAllocation.ShiftSiteAllocationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftSiteAllocation.ShiftSiteAllocationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftSiteAllocation.ShiftSiteAllocationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftSiteAllocation">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftSiteAllocationTableAdapters.ShiftSiteAllocationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftSiteAllocationTableAdapters.TableAdapterManager.UpdateUpdatedRows(ENI_BE.DS_ShiftSiteAllocation,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftSiteAllocationTableAdapters.TableAdapterManager.UpdateInsertedRows(ENI_BE.DS_ShiftSiteAllocation,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftSiteAllocationTableAdapters.TableAdapterManager.UpdateDeletedRows(ENI_BE.DS_ShiftSiteAllocation,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftSiteAllocationTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ENI_BE.DS_ShiftSiteAllocationTableAdapters.TableAdapterManager.UpdateAll(ENI_BE.DS_ShiftSiteAllocation)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftSiteAllocationTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftSiteAllocationTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ENI_BE.DS_ShiftSiteAllocationTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ENI_BE.DS_UserSiteAllocation.UserSiteAllocationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ENI_BE.DS_UserSiteAllocation.UserSiteAllocationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ENI_BE.DS_UserSiteAllocation.UserSiteAllocationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ENI_BE.DS_UserSiteAllocation">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ENI_BE.DS_UserSiteAllocationTableAdapters.UserSiteAllocationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+</members>
+</doc>

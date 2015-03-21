@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ENIWebService", "ENIWebService.vbproj", "{A919D652-AAFC-49B8-8F69-94EE7914E598}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ENI_BE", "..\..\ENI_Backend\ENI_BE\ENI_BE\ENI_BE.vbproj", "{F3DEA39A-57C4-43F8-8EB4-C6A5D2D67724}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A919D652-AAFC-49B8-8F69-94EE7914E598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A919D652-AAFC-49B8-8F69-94EE7914E598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A919D652-AAFC-49B8-8F69-94EE7914E598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A919D652-AAFC-49B8-8F69-94EE7914E598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3DEA39A-57C4-43F8-8EB4-C6A5D2D67724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3DEA39A-57C4-43F8-8EB4-C6A5D2D67724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3DEA39A-57C4-43F8-8EB4-C6A5D2D67724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DEA39A-57C4-43F8-8EB4-C6A5D2D67724}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
